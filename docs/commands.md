@@ -1,8 +1,8 @@
-<!-- Space: SlidesTemplate -->
+<!-- Space: SlidesKubernetes -->
 <!-- Parent: Project -->
 <!-- Title: Commands -->
 
-<!-- Label: SlidesTemplate -->
+<!-- Label: SlidesKubernetes -->
 <!-- Label: Project -->
 <!-- Label: Commands -->
 <!-- Include: docs/disclaimer.md -->

@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/slides-template',
+  pathPrefix: '/slides-kubernetes',
   plugins: [
     'gatsby-plugin-catch-links',
     {
