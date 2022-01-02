@@ -1,7 +1,3 @@
-<!-- Space: SlidesTemplate -->
-<!-- Parent: Project -->
-<!-- Title: Code of Conduct -->
-
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge

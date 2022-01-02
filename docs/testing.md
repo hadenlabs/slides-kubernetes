@@ -1,4 +1,4 @@
-<!-- Space: SlidesTemplate -->
+<!-- Space: SlidesKubernetes -->
 <!-- Parent: Project -->
 <!-- Title: Testing -->
 
