@@ -1,11 +1,11 @@
-<!-- Space: SlidesKubernetes -->
-<!-- Parent: Project -->
-<!-- Title: Releasing -->
+<!-- Space: Projects -->
+<!-- Parent: SlidesKubernetes -->
+<!-- Title: Releasing SlidesKubernetes -->
 
 <!-- Label: SlidesKubernetes -->
 <!-- Label: Project -->
 <!-- Label: Releasing -->
-<!-- Include: docs/disclaimer.md -->
+<!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->
 
 # Releasing

@@ -1,7 +1,3 @@
-<!-- Space: SlidesKubernetes -->
-<!-- Parent: Project -->
-<!-- Title: Authors -->
-
 # Authors
 
 ## Leads
