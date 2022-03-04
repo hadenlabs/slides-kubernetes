@@ -10,10 +10,6 @@ name: slides-kubernetes
 email:
   support: support@hadenlabs.com
 
-confluence:
-  space: SlidesKubernetes
-  title: Project
-
 # Logo for this project
 #logo: docs/logo.png
 
@@ -30,23 +26,34 @@ badges:
     url: https://github.com/hadenlabs/slides-kubernetes/releases
   - name: Lint
     image: https://img.shields.io/github/workflow/status/hadenlabs/slides-kubernetes/lint-code
-    url: https://github.com/hadenlabs/slides-kubernetes/actions?workflow=lint-code
+    url: https://github.com/hadenlabs/slides-kubernetes/actions
+  - name: Issues
+    image: https://img.shields.io/github/issues/hadenlabs/slides-kubernetes
+    url: https://github.com/hadenlabs/slides-kubernetes/issues
   - name: pre-commit
     image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
     url: https://github.com/pre-commit/pre-commit
   - name: Conventional Commits
     image: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow
     url: https://conventionalcommits.org
+  - name: KeepAChangelog
+    image: https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange
+    url: https://keepachangelog.com
 
 requirements: |-
 
   This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
   - [gomplate](https://github.com/hairyhenderson/gomplate)
+  - [Docker](https://www.docker.com)
   - [python](https://www.python.org)
   - [taskfile](https://github.com/go-task/task)
 
 # Short description of this project
 description: |-
 
-  slides-kubernetes for project
+  Action confluence sync that can be used to publish markdown documents to confluence. This action is a thin wrapper around the mark
+  See the action.yaml file for details of required inputs.
+
+usages:
+  - docs/usage.md
