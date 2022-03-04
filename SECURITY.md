@@ -1,3 +1,12 @@
+<!-- Space: Projects -->
+<!-- Parent: SlidesKubernetes -->
+<!-- Title: Security SlidesKubernetes -->
+
+<!-- Label: SlidesKubernetes -->
+<!-- Label: Security -->
+<!-- Include: docs/disclaimer.md -->
+<!-- Include: ac:toc -->
+
 # Security Policy
 
 ## Reporting a Security Bug
