@@ -1,6 +1,3 @@
- <!-- Space: SlidesKubernetes -->
-<!-- Title: Project -->
-
 <!--
 
 
@@ -15,19 +12,22 @@
 
   -->
 
-[![Latest Release](https://img.shields.io/github/release/hadenlabs/slides-kubernetes)](https://github.com/hadenlabs/slides-kubernetes/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/slides-kubernetes/lint-code)](https://github.com/hadenlabs/slides-kubernetes/actions?workflow=lint-code) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org)
+[![Latest Release](https://img.shields.io/github/release/hadenlabs/slides-kubernetes)](https://github.com/hadenlabs/slides-kubernetes/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/slides-kubernetes/lint-code)](https://github.com/hadenlabs/slides-kubernetes/actions) [![Issues](https://img.shields.io/github/issues/hadenlabs/slides-kubernetes)](https://github.com/hadenlabs/slides-kubernetes/issues) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
 
 # slides-kubernetes
 
-slides-kubernetes for project
+Action confluence sync that can be used to publish markdown documents to confluence. This action is a thin wrapper around the mark See the action.yaml file for details of required inputs.
 
 ## Requirements
 
 This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
 - [gomplate](https://github.com/hairyhenderson/gomplate)
+- [Docker](https://www.docker.com)
 - [python](https://www.python.org)
 - [taskfile](https://github.com/go-task/task)
+
+## Usage
 
 ## Help
 

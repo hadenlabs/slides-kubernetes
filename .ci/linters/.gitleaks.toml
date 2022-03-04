@@ -171,11 +171,11 @@ title = "gitleaks config"
         regexes = [
             '''[a-zA-Z0-9._%+-]+@users.noreply.github.com''',
             '''[a-zA-Z0-9._%+-]+@yopmail.com''',
-            '''security@hadenlabs.com''',
             '''git@github.com''',
             '''git@gitlab.com''',
             '''slovacus@gmail.com''',
             '''luis@hadenlabs.com''',
+            '''security@hadenlabs.com''',
             '''hola@hadenlabs.com''',
             '''hello@hadenlabs.com''',
             '''support@hadenlbas.com''',
