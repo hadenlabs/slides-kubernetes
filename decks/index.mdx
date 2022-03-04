@@ -1,9 +1,6 @@
 import { CodeSurfer } from "code-surfer"
 import {Appear, Notes, Image, Split, Head} from 'mdx-deck';
 
-import ImageProcessThinking from '/static/images/process-thinking.jpg'
-import ImageObjective from '/static/objective.png'
-
 import 'prismjs/components/prism-shell-session'
 import "prismjs/components/prism-hcl"
 import "prismjs/components/prism-markdown"
@@ -18,7 +15,7 @@ export const theme = myTheme;
 
 <div style="text-align: center">
 
-## Slides Template
+## Slides K8s
 
 </div>
 
@@ -26,7 +23,7 @@ export const theme = myTheme;
 
 ---
 
-## Title | Hadenlabs
+## K8s | Hadenlabs
 
 - [@hadenlabs | Hadenlabs.com](https://github.com/hadenlabs)
 
@@ -34,25 +31,14 @@ export const theme = myTheme;
 
 <FlexLayout direction="column" justify="space-evenly">
 
-### No Tenemos Tiempo
+## Agenda
 
-<Appear>
-
-<Image src={ImageProcessThinking} style={{ backgroundSize: 'auto' }} />
-
-</Appear>
-
-</FlexLayout>
-
----
-
-<FlexLayout direction="column" justify="space-evenly">
-
-## Objective
-
-<Image
-  src={ImageObjective}
-  style={{ backgroundSize: 'auto' }} />
+- Multipass.
+- Kubernetes Installation.
+- Kubectl.
+- Kustomize.
+- Skaffold.
+- k9s.
 
 </FlexLayout>
 
@@ -62,21 +48,90 @@ export const theme = myTheme;
 
 ## Agenda
 
-- Title 1.
-- Title 2.
-- Title 3.
+- Overview Architecture.
+- Nodes (Minions).
+- Cluster.
+- Master Node.
+- Pod.
+- Components Kubernetes
 
 </FlexLayout>
 
 ---
 
-FlexLayout direction="column">
+<FlexLayout direction="column" justify="space-evenly">
+
+## Agenda
+
+- Kube APIServer
+- Kube Scheduler
+- Kube Controller Manager
+- Node Controller Manager
+- Replication Controller
+
+</FlexLayout>
+
+---
+
+<FlexLayout direction="column" justify="space-evenly">
+
+## Agenda
+
+- Endpoints Controller
+- Service Account and Token Controllers
+- Node Controller
+- Route Controller
+
+</FlexLayout>
+
+---
+
+<FlexLayout direction="column" justify="space-evenly">
+
+## Agenda
+
+- Service Controller
+- Volume Controller
+- Etcd
+- Scheduler
+
+</FlexLayout>
+
+---
+
+<FlexLayout direction="column" justify="space-evenly">
+
+## Kubernetes node Components
+
+- Docker
+- Container Runtime
+- Kubelet
+- Kubernetes Proxy Service
+
+</FlexLayout>
+
+---
+
+<FlexLayout direction="column" justify="space-evenly">
+
+## Tools.
+
+- [Multipass](https://multipass.run)
+- [kubectl](https://kubernetes.io/docs/tasks/tools)
+- [kustomize](https://kustomize.io)
+- [skaffold](https://skaffold.dev)
+- [k9s](https://k9scli.io)
+
+</FlexLayout>
+
+---
+
+<FlexLayout direction="column">
 
 ## Q&amp;A
 
 - [@luismayta](https://github.com/luismayta)
 - [@israelgp24](https://github.com/israelgp24)
 - [@CristhoperDev](https://github.com/CristhoperDev)
-- [@christianquispe](https://github.com/christianquispe)
 
 </FlexLayout>
